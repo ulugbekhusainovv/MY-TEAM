@@ -42,17 +42,17 @@
 }
 /* ------CUSTOM CSS------ */
 :root {
+  /* primary */
   --primary-light-color: #f67e7e;
   --primary-midnight-color: #014e56;
   --primary-white-color: #ffffff;
   /*  secondary-color */
-  --secondary-repture-blue-color: #79c8c7;
+
   --secondary-polise-blue-color: #2c6269;
   --secondary-deap-green-color: #004047;
   --secondary-sacramento-green-color: #012f34;
   --secondary-dark-green-color: #002529;
   /* main */
-  --main-font-family: "Livic", Arial, Helvetica, sans-serif;
   --main-font-size-1: 1.8rem;
   --main-font-size-2: 1.5rem;
   --main-font-weight: 600;
@@ -155,8 +155,6 @@ body {
 .logo-link {
   margin-right: 8rem;
 }
-.logo-link__image {
-}
 .sitenav {
   margin-right: auto;
 }
@@ -189,8 +187,8 @@ body {
   padding-left: 12rem;
   color: var(--secondary-sacramento-green-color);
   font-weight: 700;
-  font-size:  var(--h2-size);
-  line-height: var(--h1-large-line-height)  ;
+  font-size: var(--h2-size);
+  line-height: var(--h1-large-line-height);
   padding-right: 26rem;
 }
 .ready__btn {
@@ -203,6 +201,7 @@ body {
   background-color: #222;
   color: var(--primary-white-color);
 }
+
 /* Footer */
 .footer {
   background-color: var(--secondary-dark-green-color);
