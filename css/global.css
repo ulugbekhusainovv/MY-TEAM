@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"),
+    url("../fonts/livvic-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-500italic - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/livvic-v13-latin-500italic.woff2") format("woff2"),
+    url("../fonts/livvic-v13-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/livvic-v13-latin-600.woff2") format("woff2"),
+    url("../fonts/livvic-v13-latin-600.woff") format("woff");
+}
+/* livvic-700 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/livvic-v13-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/livvic-v13-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-700italic - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/livvic-v13-latin-700italic.woff2") format("woff2"),
+    url("../fonts/livvic-v13-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  display: flex;
+}
+body {
+  height: 100%;
+  font-family: "Livvic", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  line-height: 1.67rem;
+  font-size: 1.8rem;
+  background-color: #014e56;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-primary {
+  color: #f67e7e;
+}
+.btn {
+  display: inline-block;
+  border-radius: 24px;
+  border: 2px solid transparent;
+  padding: 9px 33px 11px;
+  line-height: initial;
+}
+
+.btn-light {
+  border-color: #ffffff;
+  color: inherit;
+}
+
+.btn-light:hover {
+  background-color: #ffffff;
+  color: #002529;
+}
+
+/*-- HEADER -- */
+.header {
+  padding: 7.3rem 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  margin-right: 8rem;
+}
+.logo-link__image {
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav__list {
+  display: flex;
+}
+.sitenav__item:not(:last-child) {
+  margin-right: 4rem;
+}
+.sitenav__link {
+  color: inherit;
+}
+/* Main */
+.main {
+  flex-grow: 1;
+}
+/* ready */
+.ready {
+  background-image: url("../images/svg/ready_img.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-color: #f67e7e;
+  padding-top: 7.6rem;
+  padding-bottom: 7.6rem;
+}
+.ready__info_wrapper {
+  display: flex;
+}
+.ready__title {
+  padding-left: 12rem;
+  color: #012f34;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+  padding-right: 26rem;
+}
+.ready__btn {
+  transition: 0.3s;
+  color: #ffffff;
+  border-color: #012f34;
+}
+
+.ready__btn:hover {
+  background-color: #222;
+  color: #fff;
+}
+/* Footer */
+.footer {
+  background-color: #002529;
+}
+.footer__container {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.footer-wrapper {
+  display: flex;
+}
+.footer__nav {
+  margin-right: 12.5rem;
+}
+
+.footer__info {
+  padding-left: 0;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-weight: 300;
+  opacity: 0.6;
+  color: #fff;
+}
+
+.footer__icon {
+  padding-left: 40rem;
+}
+.footer__list {
+  padding-left: 17rem;
+  display: flex;
+  gap: 1.6rem;
+}
+.footer__img {
+  width: 24px;
+  height: 24px;
+}
+.footer__muallif_text {
+  padding-top: 5rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.icon-wrapper {
+  width: 225px;
+}

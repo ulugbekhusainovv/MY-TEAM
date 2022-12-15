@@ -1,0 +1,151 @@
+.hero {
+  background: url("../images/png/about_img.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding-top: 5.6rem;
+  padding-bottom: 12rem;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__title--wrapper {
+  margin-bottom: 50px;
+}
+
+.hero__title {
+  font-size: 6.4rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffffff;
+}
+.text-primary {
+}
+.hero__info {
+  width: 730px;
+}
+.hero__divider {
+  margin-bottom: 4rem;
+  background-color: #f67e7e;
+}
+.site-divider {
+  width: 50px;
+  height: 4px;
+  border: 0;
+}
+.hero__description {
+  line-height: 1.56;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 28px;
+  line-height: 28px;
+}
+/* features */
+.features {
+  background: url("../images/png/director_left-img.png"),
+    url("../images/png/directors-rect_right.svg");
+  background-repeat: no-repeat;
+  background-position: left 0 top 0, right 0 bottom 0;
+  background-color: #004047;
+  padding-bottom: 168px;
+}
+.features__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.features__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  align-items: center;
+  color: #fff;
+}
+/* Director */
+
+.director {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  display: grid;
+  row-gap: 76px;
+  column-gap: 30px;
+}
+.director-info {
+  background-color: #012f34;
+  width: 350px;
+  height: 253px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.director-info__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+.primary {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+}
+.derector-desription {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  padding: 0px 48px;
+}
+.icon-wrapp {
+  display: flex;
+  gap: 16px;
+}
+.plus-link {
+  width: 56px;
+  height: 56px;
+  background-color: #f67e7e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 88%;
+}
+.blue {
+  background-color: #79c8c7;
+}
+/* Some */
+.some {
+  padding: 14rem 0;
+  background-color: #012f34;
+  background-image: url("../images/svg/clients-circle.svg");
+  background-repeat: no-repeat;
+}
+.some__container {
+  align-items: center;
+  justify-content: center;
+}
+
+.some__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.some__list {
+  display: flex;
+  gap: 8rem;
+}
+/* YAXSHI TUGADI */
