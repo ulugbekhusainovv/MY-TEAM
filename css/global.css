@@ -166,6 +166,10 @@ body {
 }
 .sitenav__link {
   color: inherit;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
 }
 /* Main */
 .main {
@@ -240,11 +244,17 @@ body {
   height: 24px;
 }
 .footer__muallif_text {
+  font-weight: 600;
+  font-family: "Livvic";
+  font-size: 15px;
   padding-top: 5rem;
   font-size: 13px;
-  font-weight: 400;
 }
-
+.footer__description {
+  font-weight: 600;
+  font-family: "Livvic";
+  font-size: 15px;
+}
 .icon-wrapper {
   width: 225px;
 }

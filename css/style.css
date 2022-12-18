@@ -10,7 +10,7 @@
   --secondary-sacramento-green-color: #012f34;
   --secondary-dark-green-color: #002529;
   /* main */
-  --main-font-family: "Livic", Arial, Helvetica, sans-serif;
+  --main-font-family: "Livvic", Arial, Helvetica, sans-serif;
   --main-font-size-1: 1.8rem;
   --main-font-size-2: 1.5rem;
   --main-font-weight: 600;
@@ -32,7 +32,6 @@
 }
 
 /* -- MAIN -- */
-
 
 .hero {
   background: url("../images/svg/hero-bg-left.svg"),
@@ -56,6 +55,8 @@
 .hero__title {
   font-size: var(--h1-large-size);
   line-height: var(--h1-large-line-height);
+  font-family: "Livvic";
+  font-weight: 700;
 }
 .hero__info {
   width: 445px;
@@ -70,7 +71,10 @@
   border: 0;
 }
 .hero__description {
-  line-height: var(--h3-line-height);
+  line-height: 28px;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /* FEATURES */
@@ -94,12 +98,14 @@
 
 .features__divider {
   background-color: var(--primary-light-color);
-  margin-bottom: 5.4rem;
+  margin-bottom: 3.8rem;
 }
 
 .features__title {
+  font-family: "Livvic";
+  font-weight: 700;
   font-size: var(--h2-size);
-  line-height: 1;
+  line-height: 48px;
 }
 .features__list--wrapper {
   margin-top: 5.4rem;
@@ -115,12 +121,17 @@
   margin-bottom: 3.2rem;
 }
 .features__item--title {
+  font-family: "Livvic";
+  font-weight: 700;
   color: var(--primary-light-color);
   font-size: var(--main-font-size-1);
-  margin-bottom: 1.6rem;
+  line-height: 28px;
 }
 .features__item--description {
+  font-family: "Livvic";
+  font-weight: 600;
   font-size: var(--main-font-size-2);
+  line-height: 25px;
   opacity: 0.8;
 }
 /* COMPANIYA */
@@ -131,7 +142,6 @@
 }
 .companiya__title {
   font-family: "Livvic";
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -162,7 +172,8 @@
 }
 
 .mijozlar__description {
-  /* position: absolute; */
+  font-family: "Livvic";
+  font-weight: 600;
   height: 100px;
   left: 0%;
   right: 68.47%;
@@ -175,6 +186,7 @@
   color: var(--primary-white-color);
 }
 .mijozlar__title {
+  font-family: "Livvic";
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -193,3 +205,9 @@
   margin-left: 15rem;
 }
 /* ready */
+.ready__title {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}

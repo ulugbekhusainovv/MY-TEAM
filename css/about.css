@@ -10,7 +10,7 @@
   --secondary-sacramento-green-color: #012f34;
   --secondary-dark-green-color: #002529;
   /* main */
-  --main-font-family: "Livic", Arial, Helvetica, sans-serif;
+  --main-font-family: "Livvic", Arial, Helvetica, sans-serif;
   --main-font-size-1: 1.8rem;
   --main-font-size-2: 1.5rem;
   --main-font-weight: 600;
@@ -51,8 +51,10 @@
 }
 
 .hero__title {
+  font-family: "Livvic";
+  font-weight: 700;
   font-size: 6.4rem;
-  line-height: 1;
+  line-height: 100px;
   font-weight: 700;
   color: var(--primary-white-color);
 }
@@ -69,10 +71,9 @@
   border: 0;
 }
 .hero__description {
-  line-height: var(--h3-line-height);
+  font-family: "Livvic";
   font-size: var(--main-font-size-1);
-  font-weight:var(--main-font-weight);
-  line-height: 28px;
+  font-weight: var(--main-font-weight);
   line-height: 28px;
 }
 /* features */
@@ -91,6 +92,7 @@
   gap: 6.4rem;
 }
 .features__title {
+  font-family: "Livvic";
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -117,6 +119,7 @@
   position: relative;
 }
 .director-info__title {
+  font-family: "Livvic";
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -132,6 +135,7 @@
   text-align: center;
 }
 .derector-desription {
+  font-family: "Livvic";
   font-weight: var(--main-font-weight);
   font-size: 15px;
   line-height: 25px;
@@ -169,7 +173,8 @@
 }
 
 .some__title {
-  font-weight: var(--main-font-weight);
+  font-family: "Livvic";
+  font-weight: 700;
   font-size: 48px;
   line-height: 48px;
   text-align: center;
@@ -178,5 +183,11 @@
 .some__list {
   display: flex;
   gap: 8rem;
+}
+.ready__title {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
 }
 /* YAXSHI TUGADI */
